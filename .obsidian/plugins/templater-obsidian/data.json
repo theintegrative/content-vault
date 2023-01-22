@@ -17,6 +17,10 @@
     {
       "folder": "post",
       "template": "templates/new-post.md"
+    },
+    {
+      "folder": "categories",
+      "template": "templates/new-catagory.md"
     }
   ],
   "syntax_highlighting": true,
