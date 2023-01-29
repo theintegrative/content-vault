@@ -4,20 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "52c6f56890f08ddc",
-        "type": "tabs",
+        "id": "da7e22388ba996a3",
+        "type": "split",
         "children": [
           {
-            "id": "3e77efcb6a8d5b5f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "post/how-this-blog-is-setup/picture-this-blog.jpg"
+            "id": "97f77426dcce8e4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4e13ca16becd2b95",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e3759c3c89178f1e",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "73a6ea4476ce6fa6",
+                "type": "leaf",
+                "state": {
+                  "type": "card-board-view",
+                  "state": {}
+                }
               }
-            }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "77f59313c48a7bdb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "574fc1eab194b216",
+                "type": "leaf",
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "__type": "8d54e44a-32e7-4297-8ae2-cff88e92ce28",
+                    "args": [],
+                    "cwd": "/home/theintegrative/github/my-repos/theintegrative.net/content/",
+                    "executable": "/bin/sh",
+                    "serial": {
+                      "columns": 173,
+                      "data": "\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   page/archives/index.md\r\n\u001b[8Cmodified:   page/links/index.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/card-board/\r\n\u001b[8C.obsidian/plugins/terminal/\r\n\u001b[8C0_pipeline/\r\n\u001b[8CUntitled 1.md\r\n\u001b[8Cpost/updated-obsidian-blog-setup/\r\n\u001b[8Ctemplates/move-pipline.md\r\n\u001b[8Ctemplates/new-pipeline.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ \r\nnvim .gitignore\r\n$ git status \r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .gitignore\r\n\u001b[8Cmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   page/archives/index.md\r\n\u001b[8Cmodified:   page/links/index.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/card-board/\r\n\u001b[8C.obsidian/plugins/terminal/\r\n\u001b[8Cpost/updated-obsidian-blog-setup/\r\n\u001b[8Ctemplates/new-pipeline.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -",
+                      "rows": 31
+                    }
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -46,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#content/idea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "post/how-this-blog-is-setup/picture-this-blog.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "post/how-this-blog-is-setup/picture-this-blog.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +170,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "post/how-this-blog-is-setup/picture-this-blog.jpg"
-              }
+              "state": {}
             }
           }
         ]
@@ -142,20 +188,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "3e77efcb6a8d5b5f",
+  "active": "574fc1eab194b216",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "templates/move-pipline.md",
     "_index.md",
-    "templates/new-post.md",
-    "post/how-my-main-driver-is-setup-with-ansible/index.md",
-    "post/plan-for-the-future/index.md",
-    "categories/Projects/_index.md",
-    "post/plan-for-the-future/plan-future.webp",
-    "templates/Snippets/new-link-snippet.md",
-    "templates/new-catagory.md",
-    "page/search/index.md",
-    "page/links/index.md"
+    "templates/new-pipeline.md",
+    "0_pipeline/Pipeline.md",
+    "categories/Future/_index.md",
+    "post/how-this-blog-is-setup/index.md",
+    "0_pipeline/new/index.md",
+    "Untitled.md",
+    "templates/Snippets/new-link-snippet.md"
   ]
 }
