@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "da7e22388ba996a3",
+        "id": "87843a2aab7277c1",
         "type": "split",
         "children": [
           {
@@ -12,42 +12,46 @@
             "type": "tabs",
             "children": [
               {
-                "id": "4e13ca16becd2b95",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_index.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e3759c3c89178f1e",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              },
-              {
                 "id": "73a6ea4476ce6fa6",
                 "type": "leaf",
                 "state": {
                   "type": "card-board-view",
                   "state": {}
                 }
+              },
+              {
+                "id": "06854736605e1df2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "post/chicken-and-egg-solution/index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b7b834da52fabf2c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "post/chicken-and-egg-solution/index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "77f59313c48a7bdb",
+            "id": "b7c0d6cf294b4479",
             "type": "tabs",
             "children": [
               {
-                "id": "574fc1eab194b216",
+                "id": "39eb31ebb8105d8a",
                 "type": "leaf",
                 "state": {
                   "type": "terminal:terminal",
@@ -58,7 +62,7 @@
                     "executable": "/bin/sh",
                     "serial": {
                       "columns": 173,
-                      "data": "\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   page/archives/index.md\r\n\u001b[8Cmodified:   page/links/index.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/card-board/\r\n\u001b[8C.obsidian/plugins/terminal/\r\n\u001b[8C0_pipeline/\r\n\u001b[8CUntitled 1.md\r\n\u001b[8Cpost/updated-obsidian-blog-setup/\r\n\u001b[8Ctemplates/move-pipline.md\r\n\u001b[8Ctemplates/new-pipeline.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ \r\nnvim .gitignore\r\n$ git status \r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .gitignore\r\n\u001b[8Cmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   page/archives/index.md\r\n\u001b[8Cmodified:   page/links/index.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31m.obsidian/plugins/card-board/\r\n\u001b[8C.obsidian/plugins/terminal/\r\n\u001b[8Cpost/updated-obsidian-blog-setup/\r\n\u001b[8Ctemplates/new-pipeline.md\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -",
+                      "data": "\r\n$ git status\r\nOn branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mpost/chicken-egg-solution/\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\n$ git add -A\r\n$ git add =A                                                                            \r\nfatal: pathspec '=A' did not match any files\r\n$ git add \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[13A\u001b[10C",
                       "rows": 31
                     }
                   }
@@ -133,6 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "post/chicken-and-egg-solution/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,6 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "post/chicken-and-egg-solution/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "post/chicken-and-egg-solution/index.md"
+              }
             }
           }
         ]
@@ -192,17 +200,17 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "574fc1eab194b216",
+  "active": "39eb31ebb8105d8a",
   "lastOpenFiles": [
+    "0_pipeline/Pipeline.md",
+    "post/plan-for-the-future/index.md",
+    "post/plan-for-the-future/plan-future.webp",
+    "post/chicken-and-egg-solution/index.md",
+    "_index.md",
     "Untitled 1.md",
     "templates/move-pipline.md",
-    "_index.md",
     "templates/new-pipeline.md",
-    "0_pipeline/Pipeline.md",
     "categories/Future/_index.md",
-    "post/how-this-blog-is-setup/index.md",
-    "0_pipeline/new/index.md",
-    "Untitled.md",
-    "templates/Snippets/new-link-snippet.md"
+    "post/how-this-blog-is-setup/index.md"
   ]
 }
